@@ -33,11 +33,30 @@ const AdminDashboard = () => {
       <button onClick={() => navigate('/view-posted-jobs')} style={styles.viewPostedJobs}>
   View Posted Jobs
 </button>
+<br />
+<br></br>
+<button onClick={() => navigate('/view-reports')} style={styles.viewReportsButton}>
+  View Reports
+</button>
+
     </div>
   );
 };
 
 const styles = {
+  viewReportsButton: {
+    width: '75%',
+    padding: '15px',
+    fontSize: '18px',
+    backgroundColor: '#6f42c1', // purple
+    color: '#fff',
+    border: 'none',
+    borderRadius: '8px',
+    cursor: 'pointer',
+    boxShadow: '0 4px 10px rgba(111, 66, 193, 0.2)', // soft purple shadow
+    transition: 'background-color 0.3s, box-shadow 0.3s',
+  },
+  
   dashboardContainer: {
     display: 'flex',
     flexDirection: 'column',

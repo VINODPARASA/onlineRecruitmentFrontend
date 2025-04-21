@@ -20,6 +20,7 @@ import ScheduleInterviewForm from './pages/ScheduleInterviewForm';
 
 import InterviewList from './pages/InterviewList';
 import Profile from './pages/Profile';
+import JobApplicationChart from './pages/JobApplicationChart';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
       
       <Route path="/view-scheduled-interviews" element={<InterviewList />} />
       <Route path="/profile" element={<Profile />}/>
+      <Route path="/view-reports" element={<JobApplicationChart />} />
             
           
 
